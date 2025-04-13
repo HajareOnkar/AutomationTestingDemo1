@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-06T20:29:26 IST" name="Suite" finished-at="2025-04-06T20:29:43 IST" duration-ms="17014">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerClass@4b741d6d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-06T20:29:26 IST" name="Test" finished-at="2025-04-06T20:29:43 IST" duration-ms="17014">
+      <class name="Runner.RunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:26 IST" name="setUpClass" finished-at="2025-04-06T20:29:26 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b69761b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:26 IST" name="openbrowser" finished-at="2025-04-06T20:29:27 IST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T20:29:31 IST" duration-ms="3337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:31 IST" name="closebrowser" finished-at="2025-04-06T20:29:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:31 IST" name="openbrowser" finished-at="2025-04-06T20:29:32 IST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T20:29:38 IST" duration-ms="6940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:38 IST" name="closebrowser" finished-at="2025-04-06T20:29:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:38 IST" name="openbrowser" finished-at="2025-04-06T20:29:39 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T20:29:43 IST" duration-ms="3614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:43 IST" name="closebrowser" finished-at="2025-04-06T20:29:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerClass@4b741d6d]" started-at="2025-04-06T20:29:43 IST" name="tearDownClass" finished-at="2025-04-06T20:29:43 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
