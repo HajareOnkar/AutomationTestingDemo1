@@ -6,10 +6,13 @@
     <classes>
       <class name="Runner.RunnerClass">
         <methods>
-          <include name="openbrowser"/>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2"/>
+          <include name="openbrowser"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+          <include name="tearDown"/>
+          <include name="closebrowser"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Runner.RunnerClass -->
     </classes>
