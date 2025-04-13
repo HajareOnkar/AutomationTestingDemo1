@@ -23,22 +23,22 @@ public class BaseClass extends AbstractTestNGCucumberTests{
 	
 	public static  WebDriver driver;
 	
-	public static Connection connection;
-	
-
-    // This method will run before any test method
-    @BeforeSuite
-    public void setUp() throws SQLException {
-        // Get the connection from DatabaseConnectionManager
-        connection = DatabaseConnectionManager.getConnection();
-        
-    }
-    
-    @AfterSuite
-    public void tearDown() {
-        // Close the connection after tests
-        DatabaseConnectionManager.closeConnection();
-    }
+//	public static Connection connection;
+//	
+//
+//    // This method will run before any test method
+//    @BeforeSuite
+//    public void setUp() throws SQLException {
+//        // Get the connection from DatabaseConnectionManager
+//        connection = DatabaseConnectionManager.getConnection();
+//        
+//    }
+//    
+//    @AfterSuite
+//    public void tearDown() {
+//        // Close the connection after tests
+//        DatabaseConnectionManager.closeConnection();
+//    }
 
 	
 	@BeforeMethod
