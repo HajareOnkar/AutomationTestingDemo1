@@ -15,17 +15,17 @@ public class dashbordvalues extends BaseClass {
 	public String getData() {
 		  //Connection connection = DatabaseConnectionManager.getConnection();
 		  String data="";
-	        try {
-	            
-	        	 Statement stmt = connection.createStatement();
-				ResultSet rs = stmt.executeQuery("SELECT * FROM practice");
-
-	            while (rs.next()) {
-	            data =  rs.getString("column_name");
-	            }
-	        } catch (SQLException e) {
-	            e.printStackTrace();
-	        }
+//	        try {
+//	            
+//	        	 Statement stmt = connection.createStatement();
+//				ResultSet rs = stmt.executeQuery("SELECT * FROM practice");
+//
+//	            while (rs.next()) {
+//	            data =  rs.getString("column_name");
+//	            }
+//	        } catch (SQLException e) {
+//	            e.printStackTrace();
+//	        }
 			return data;
 		}
 	
