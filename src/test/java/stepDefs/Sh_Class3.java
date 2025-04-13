@@ -1,5 +1,6 @@
 package stepDefs;
 
 public class Sh_Class3 {
-      String s="hi";
+
+    int i=2;
 }
